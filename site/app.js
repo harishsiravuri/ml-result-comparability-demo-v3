@@ -3886,7 +3886,7 @@
       fmtN(nT) +
       "</b> leaderboards that can be ranked, that number is not a recorded test number, and for <b>" +
       fmtN(cnt("d")) +
-      "</b> a same-setup comparison names a different winner.</p>" +
+      "</b> a same-setup comparison names a different winner in the stored labels.</p>" +
       "<div class='pops'>" +
       bar(T, nT, "The top number of each of the " + fmtN(nT) + " rankable leaderboards") +
       bar(R, nR, "All " + fmtN(nR) + " result records in the archive") +
@@ -4236,7 +4236,7 @@
       fmtN(st.query_conditioned_boards) +
       " leaderboards that can be ranked, " +
       fmtN(st.winner_changes) +
-      " name a different winner once only same-setup scores compete.</p>" +
+      " name a different winner in the stored labels once only same-setup scores compete.</p>" +
       (C
         ? "<p><b>How much is written down.</b> Across all " +
           fmtN(C.records[0] + C.records[1] + C.records[2]) +
@@ -4420,7 +4420,7 @@
       fmtN(st.winner_changes) +
       "</b> of " +
       fmtN(st.query_conditioned_boards) +
-      " rankable leaderboards name a different winner when only same-setup results compete" +
+      " rankable leaderboards name a different winner in the stored labels when only same-setup results compete" +
       (fair
         ? "<small class='denom'>That is about 1 in " +
           Math.round(fair / st.winner_changes) +
@@ -4547,7 +4547,7 @@
       fmtN(st.winner_changes) +
       "</b> of " +
       fmtN(st.query_conditioned_boards) +
-      " rankable leaderboards name a different winner</span><span><b class='red'>14</b> of 56 hand-checked records had a wrong label</span><span class='pstep' id='presentStep'></span>";
+      " rankable leaderboards name a different winner in the stored labels</span><span><b class='red'>14</b> of 56 hand-checked records had a wrong label</span><span class='pstep' id='presentStep'></span>";
   }
   function fillFindList() {
     const dl = $("findList");
