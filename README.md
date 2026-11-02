@@ -1,8 +1,12 @@
 # Leaderboard Check
 
+> **This repository is a copy, created solely to host Apoorv's version of the site.**
+> The site in this repository (v3) was designed and built by Apoorv ([approved200](https://github.com/approved200)) and proposed in [pull request #1](https://github.com/harishsiravuri/ml-result-comparability-demo/pull/1) on the original repository, [harishsiravuri/ml-result-comparability-demo](https://github.com/harishsiravuri/ml-result-comparability-demo).
+> This copy exists only to serve that version on GitHub Pages. The original repository and its site are unchanged. The data, build scripts and earlier history are copied from the original repository.
+
 Is the top number a fair comparison? A static web demo. For any saved leaderboard you see two answers side by side. **The leaderboard says** is the best raw number on the board. The **fair comparison** is the best number among result records that share the split, metric name and unit the question needs. Below them, **How this answer was made** replays the same five stages for every leaderboard from saved records, and a machine-readable **comparability determination** backs the answer. A browse page lists all 4,438 leaderboards.
 
-Live site: <https://harishsiravuri.github.io/ml-result-comparability-demo/>
+Live site: <https://harishsiravuri.github.io/ml-result-comparability-demo-v3/> (alternative design; the main demo is <https://harishsiravuri.github.io/ml-result-comparability-demo/>)
 
 Every displayed record carries a pointer to its source paper. Records that were checked by hand carry a badge. In the expanded sections, every record has a **Report a label error** link that opens a pre-filled issue here.
 
